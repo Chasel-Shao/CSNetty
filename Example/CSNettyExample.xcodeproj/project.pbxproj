@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F321DEEB1F0B2C28008CEDFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DEEA1F0B2C28008CEDFA /* main.m */; };
+		F321DEEE1F0B2C28008CEDFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DEED1F0B2C28008CEDFA /* AppDelegate.m */; };
+		F321DEF11F0B2C28008CEDFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DEF01F0B2C28008CEDFA /* ViewController.m */; };
+		F321DEF41F0B2C28008CEDFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F321DEF21F0B2C28008CEDFA /* Main.storyboard */; };
+		F321DEF61F0B2C28008CEDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F321DEF51F0B2C28008CEDFA /* Assets.xcassets */; };
+		F321DEF91F0B2C28008CEDFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F321DEF71F0B2C28008CEDFA /* LaunchScreen.storyboard */; };
+		F321DF181F0B2C63008CEDFA /* CSNettyAspect.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DF031F0B2C63008CEDFA /* CSNettyAspect.m */; };
+		F321DF191F0B2C63008CEDFA /* CSNettyAttachData.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DF051F0B2C63008CEDFA /* CSNettyAttachData.m */; };
+		F321DF1A1F0B2C63008CEDFA /* CSNettyCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DF071F0B2C63008CEDFA /* CSNettyCache.m */; };
+		F321DF1B1F0B2C63008CEDFA /* CSNettyCacheMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DF091F0B2C63008CEDFA /* CSNettyCacheMetadata.m */; };
+		F321DF1C1F0B2C63008CEDFA /* CSNettyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DF0B1F0B2C63008CEDFA /* CSNettyCallback.m */; };
+		F321DF1D1F0B2C63008CEDFA /* CSNettykEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DF0D1F0B2C63008CEDFA /* CSNettykEncrypt.m */; };
+		F321DF1E1F0B2C63008CEDFA /* CSNettyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DF0F1F0B2C63008CEDFA /* CSNettyManager.m */; };
+		F321DF1F1F0B2C63008CEDFA /* CSNettyReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DF111F0B2C63008CEDFA /* CSNettyReachability.m */; };
+		F321DF201F0B2C63008CEDFA /* CSNettyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DF131F0B2C63008CEDFA /* CSNettyRequest.m */; };
+		F321DF211F0B2C63008CEDFA /* CSNettyResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DF151F0B2C63008CEDFA /* CSNettyResponseSerialization.m */; };
+		F321DF221F0B2C63008CEDFA /* CSNettyResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DF171F0B2C63008CEDFA /* CSNettyResult.m */; };
+		F321DF271F0B2C6A008CEDFA /* NSObject+CSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F321DF261F0B2C6A008CEDFA /* NSObject+CSModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F321DEE61F0B2C28008CEDFA /* CSNettyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSNettyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F321DEEA1F0B2C28008CEDFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F321DEEC1F0B2C28008CEDFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F321DEED1F0B2C28008CEDFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F321DEEF1F0B2C28008CEDFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F321DEF01F0B2C28008CEDFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F321DEF31F0B2C28008CEDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F321DEF51F0B2C28008CEDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F321DEF81F0B2C28008CEDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F321DEFA1F0B2C28008CEDFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F321DF011F0B2C63008CEDFA /* CSNetty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNetty.h; sourceTree = "<group>"; };
+		F321DF021F0B2C63008CEDFA /* CSNettyAspect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNettyAspect.h; sourceTree = "<group>"; };
+		F321DF031F0B2C63008CEDFA /* CSNettyAspect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNettyAspect.m; sourceTree = "<group>"; };
+		F321DF041F0B2C63008CEDFA /* CSNettyAttachData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNettyAttachData.h; sourceTree = "<group>"; };
+		F321DF051F0B2C63008CEDFA /* CSNettyAttachData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNettyAttachData.m; sourceTree = "<group>"; };
+		F321DF061F0B2C63008CEDFA /* CSNettyCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNettyCache.h; sourceTree = "<group>"; };
+		F321DF071F0B2C63008CEDFA /* CSNettyCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNettyCache.m; sourceTree = "<group>"; };
+		F321DF081F0B2C63008CEDFA /* CSNettyCacheMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNettyCacheMetadata.h; sourceTree = "<group>"; };
+		F321DF091F0B2C63008CEDFA /* CSNettyCacheMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNettyCacheMetadata.m; sourceTree = "<group>"; };
+		F321DF0A1F0B2C63008CEDFA /* CSNettyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNettyCallback.h; sourceTree = "<group>"; };
+		F321DF0B1F0B2C63008CEDFA /* CSNettyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNettyCallback.m; sourceTree = "<group>"; };
+		F321DF0C1F0B2C63008CEDFA /* CSNettyEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNettyEncrypt.h; sourceTree = "<group>"; };
+		F321DF0D1F0B2C63008CEDFA /* CSNettykEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNettykEncrypt.m; sourceTree = "<group>"; };
+		F321DF0E1F0B2C63008CEDFA /* CSNettyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNettyManager.h; sourceTree = "<group>"; };
+		F321DF0F1F0B2C63008CEDFA /* CSNettyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNettyManager.m; sourceTree = "<group>"; };
+		F321DF101F0B2C63008CEDFA /* CSNettyReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNettyReachability.h; sourceTree = "<group>"; };
+		F321DF111F0B2C63008CEDFA /* CSNettyReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNettyReachability.m; sourceTree = "<group>"; };
+		F321DF121F0B2C63008CEDFA /* CSNettyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNettyRequest.h; sourceTree = "<group>"; };
+		F321DF131F0B2C63008CEDFA /* CSNettyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNettyRequest.m; sourceTree = "<group>"; };
+		F321DF141F0B2C63008CEDFA /* CSNettyResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNettyResponseSerialization.h; sourceTree = "<group>"; };
+		F321DF151F0B2C63008CEDFA /* CSNettyResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNettyResponseSerialization.m; sourceTree = "<group>"; };
+		F321DF161F0B2C63008CEDFA /* CSNettyResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNettyResult.h; sourceTree = "<group>"; };
+		F321DF171F0B2C63008CEDFA /* CSNettyResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNettyResult.m; sourceTree = "<group>"; };
+		F321DF241F0B2C6A008CEDFA /* CSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSModel.h; sourceTree = "<group>"; };
+		F321DF251F0B2C6A008CEDFA /* NSObject+CSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CSModel.h"; sourceTree = "<group>"; };
+		F321DF261F0B2C6A008CEDFA /* NSObject+CSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CSModel.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F321DEE31F0B2C28008CEDFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F321DEDD1F0B2C28008CEDFA = {
+			isa = PBXGroup;
+			children = (
+				F321DF231F0B2C6A008CEDFA /* CSModel */,
+				F321DF001F0B2C63008CEDFA /* CSNetty */,
+				F321DEE81F0B2C28008CEDFA /* CSNettyExample */,
+				F321DEE71F0B2C28008CEDFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F321DEE71F0B2C28008CEDFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F321DEE61F0B2C28008CEDFA /* CSNettyExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F321DEE81F0B2C28008CEDFA /* CSNettyExample */ = {
+			isa = PBXGroup;
+			children = (
+				F321DEEC1F0B2C28008CEDFA /* AppDelegate.h */,
+				F321DEED1F0B2C28008CEDFA /* AppDelegate.m */,
+				F321DEEF1F0B2C28008CEDFA /* ViewController.h */,
+				F321DEF01F0B2C28008CEDFA /* ViewController.m */,
+				F321DEF21F0B2C28008CEDFA /* Main.storyboard */,
+				F321DEF51F0B2C28008CEDFA /* Assets.xcassets */,
+				F321DEF71F0B2C28008CEDFA /* LaunchScreen.storyboard */,
+				F321DEFA1F0B2C28008CEDFA /* Info.plist */,
+				F321DEE91F0B2C28008CEDFA /* Supporting Files */,
+			);
+			path = CSNettyExample;
+			sourceTree = "<group>";
+		};
+		F321DEE91F0B2C28008CEDFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F321DEEA1F0B2C28008CEDFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F321DF001F0B2C63008CEDFA /* CSNetty */ = {
+			isa = PBXGroup;
+			children = (
+				F321DF011F0B2C63008CEDFA /* CSNetty.h */,
+				F321DF021F0B2C63008CEDFA /* CSNettyAspect.h */,
+				F321DF031F0B2C63008CEDFA /* CSNettyAspect.m */,
+				F321DF041F0B2C63008CEDFA /* CSNettyAttachData.h */,
+				F321DF051F0B2C63008CEDFA /* CSNettyAttachData.m */,
+				F321DF061F0B2C63008CEDFA /* CSNettyCache.h */,
+				F321DF071F0B2C63008CEDFA /* CSNettyCache.m */,
+				F321DF081F0B2C63008CEDFA /* CSNettyCacheMetadata.h */,
+				F321DF091F0B2C63008CEDFA /* CSNettyCacheMetadata.m */,
+				F321DF0A1F0B2C63008CEDFA /* CSNettyCallback.h */,
+				F321DF0B1F0B2C63008CEDFA /* CSNettyCallback.m */,
+				F321DF0C1F0B2C63008CEDFA /* CSNettyEncrypt.h */,
+				F321DF0D1F0B2C63008CEDFA /* CSNettykEncrypt.m */,
+				F321DF0E1F0B2C63008CEDFA /* CSNettyManager.h */,
+				F321DF0F1F0B2C63008CEDFA /* CSNettyManager.m */,
+				F321DF101F0B2C63008CEDFA /* CSNettyReachability.h */,
+				F321DF111F0B2C63008CEDFA /* CSNettyReachability.m */,
+				F321DF121F0B2C63008CEDFA /* CSNettyRequest.h */,
+				F321DF131F0B2C63008CEDFA /* CSNettyRequest.m */,
+				F321DF141F0B2C63008CEDFA /* CSNettyResponseSerialization.h */,
+				F321DF151F0B2C63008CEDFA /* CSNettyResponseSerialization.m */,
+				F321DF161F0B2C63008CEDFA /* CSNettyResult.h */,
+				F321DF171F0B2C63008CEDFA /* CSNettyResult.m */,
+			);
+			name = CSNetty;
+			path = ../CSNetty;
+			sourceTree = "<group>";
+		};
+		F321DF231F0B2C6A008CEDFA /* CSModel */ = {
+			isa = PBXGroup;
+			children = (
+				F321DF241F0B2C6A008CEDFA /* CSModel.h */,
+				F321DF251F0B2C6A008CEDFA /* NSObject+CSModel.h */,
+				F321DF261F0B2C6A008CEDFA /* NSObject+CSModel.m */,
+			);
+			name = CSModel;
+			path = ../Framework/CSModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F321DEE51F0B2C28008CEDFA /* CSNettyExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F321DEFD1F0B2C28008CEDFA /* Build configuration list for PBXNativeTarget "CSNettyExample" */;
+			buildPhases = (
+				F321DEE21F0B2C28008CEDFA /* Sources */,
+				F321DEE31F0B2C28008CEDFA /* Frameworks */,
+				F321DEE41F0B2C28008CEDFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSNettyExample;
+			productName = CSNettyExample;
+			productReference = F321DEE61F0B2C28008CEDFA /* CSNettyExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F321DEDE1F0B2C28008CEDFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chasel;
+				TargetAttributes = {
+					F321DEE51F0B2C28008CEDFA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 626KGQ43W3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F321DEE11F0B2C28008CEDFA /* Build configuration list for PBXProject "CSNettyExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F321DEDD1F0B2C28008CEDFA;
+			productRefGroup = F321DEE71F0B2C28008CEDFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F321DEE51F0B2C28008CEDFA /* CSNettyExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F321DEE41F0B2C28008CEDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F321DEF91F0B2C28008CEDFA /* LaunchScreen.storyboard in Resources */,
+				F321DEF61F0B2C28008CEDFA /* Assets.xcassets in Resources */,
+				F321DEF41F0B2C28008CEDFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F321DEE21F0B2C28008CEDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F321DF181F0B2C63008CEDFA /* CSNettyAspect.m in Sources */,
+				F321DF191F0B2C63008CEDFA /* CSNettyAttachData.m in Sources */,
+				F321DF1F1F0B2C63008CEDFA /* CSNettyReachability.m in Sources */,
+				F321DF1B1F0B2C63008CEDFA /* CSNettyCacheMetadata.m in Sources */,
+				F321DF1C1F0B2C63008CEDFA /* CSNettyCallback.m in Sources */,
+				F321DF221F0B2C63008CEDFA /* CSNettyResult.m in Sources */,
+				F321DEF11F0B2C28008CEDFA /* ViewController.m in Sources */,
+				F321DF211F0B2C63008CEDFA /* CSNettyResponseSerialization.m in Sources */,
+				F321DF201F0B2C63008CEDFA /* CSNettyRequest.m in Sources */,
+				F321DF1A1F0B2C63008CEDFA /* CSNettyCache.m in Sources */,
+				F321DF271F0B2C6A008CEDFA /* NSObject+CSModel.m in Sources */,
+				F321DF1E1F0B2C63008CEDFA /* CSNettyManager.m in Sources */,
+				F321DEEE1F0B2C28008CEDFA /* AppDelegate.m in Sources */,
+				F321DF1D1F0B2C63008CEDFA /* CSNettykEncrypt.m in Sources */,
+				F321DEEB1F0B2C28008CEDFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F321DEF21F0B2C28008CEDFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F321DEF31F0B2C28008CEDFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F321DEF71F0B2C28008CEDFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F321DEF81F0B2C28008CEDFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F321DEFB1F0B2C28008CEDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F321DEFC1F0B2C28008CEDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F321DEFE1F0B2C28008CEDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 626KGQ43W3;
+				INFOPLIST_FILE = CSNettyExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chasel.CSNettyExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F321DEFF1F0B2C28008CEDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 626KGQ43W3;
+				INFOPLIST_FILE = CSNettyExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chasel.CSNettyExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F321DEE11F0B2C28008CEDFA /* Build configuration list for PBXProject "CSNettyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F321DEFB1F0B2C28008CEDFA /* Debug */,
+				F321DEFC1F0B2C28008CEDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F321DEFD1F0B2C28008CEDFA /* Build configuration list for PBXNativeTarget "CSNettyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F321DEFE1F0B2C28008CEDFA /* Debug */,
+				F321DEFF1F0B2C28008CEDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F321DEDE1F0B2C28008CEDFA /* Project object */;
+}
